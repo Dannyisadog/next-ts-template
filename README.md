@@ -1,6 +1,6 @@
 # Front-end Template (nextjs, typescript)
 
-### Getting Started
+## Getting Started
 
 ```bash
 npm run dev
