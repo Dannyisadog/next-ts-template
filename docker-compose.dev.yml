@@ -1,0 +1,14 @@
+version: '2.6'
+services:
+  node:
+    build:
+      context: "."
+      dockerfile: Dockerfile
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+    volumes:
+      - ".:/app"
+    command: sh -c "export NODE_ENV='development' && yarn dev"
+    ports:
+      - "3000:3000"
+    stdin_open: true
