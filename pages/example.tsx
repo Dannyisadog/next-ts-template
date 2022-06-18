@@ -1,7 +1,7 @@
 import { NextPage } from 'next';
 import ExampleProvider from 'providers/example/Provider';
-import Example from 'views/desktop/Example';
 import { ContextProperty } from 'providers/shared/constants';
+import Example from 'views/desktop/Example';
 
 interface Props {
   data: ContextProperty;
