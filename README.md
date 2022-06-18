@@ -1,9 +1,16 @@
-# Front-end Template (nextjs, typescript)
+# Front-end Template (next.js, typescript)
 
-## Getting Started
+### Getting Started
 
-```bash
+```
 yarn install
-
+```
+```
 yarn dev
+```
+
+#### with docker
+
+```
+docker-compose -f docker-compose.dev.yml up
 ```
