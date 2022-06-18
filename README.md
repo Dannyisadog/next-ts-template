@@ -4,6 +4,6 @@
 
 ```bash
 yarn install
-#then
+
 yarn dev
 ```
