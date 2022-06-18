@@ -3,5 +3,7 @@
 ## Getting Started
 
 ```bash
+yarn install
+#then
 yarn dev
 ```
